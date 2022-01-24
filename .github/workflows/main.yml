@@ -20,8 +20,9 @@ jobs:
           go install -v ./...
           
       - name: Build Binary file 
-        run: go build ./...
+        run: |
+          cd ./cmd/net-cli 
+          go build -o netcli
       - name: Run Tests 
         run: |
-          chmod +x cmd/netl-cli/netcli
           go test -v ./...
