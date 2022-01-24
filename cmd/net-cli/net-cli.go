@@ -15,7 +15,7 @@ func main(){
 
 	app.Name = "Domain Name Lookup CLI"
 	app.Author = "Chinonso Amadi"
-	app.Version = "v0.0.1"
+	app.Version = "0.0.1"
 	app.Usage = "Let's you query IPs, CNAMEs, MX records and Name Servers!"
 
 	// We'll be using the same flag for all our commands
